@@ -20,7 +20,7 @@ import { LoginformComponent } from './loginform/loginform.component';
    imports: [
       BrowserModule,
       AppRoutingModule,
-      HttpClientModule, //digunakanuntukconsumeservicediclient
+      HttpClientModule, // digunakan untuk consume service di client
       FormsModule
    ],
    providers: [

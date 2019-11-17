@@ -15,7 +15,7 @@ export class LoginformComponent implements OnInit {
   ngOnInit() {
   }
 
-  login(){
+  login() {
     this.authSrvice.login(this.model).subscribe(
     next => {
       console.log('Signed in successfully');
